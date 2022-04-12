@@ -1,0 +1,128 @@
+@media screen and (max-width: 670px) {
+  /* menu */
+  .nav-menu {
+    width:auto;
+    text-align: left;
+  }
+  .popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+/* Table */
+  table thead {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: block;
+    text-align: right;
+  }
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+}
+body { 
+	background-color: #A7C7E7;
+ }
+
+ .p1 {
+ 	font-family: Helvetica, sans-serif;
+ 	font-size: 50px; 
+  
+ }
+ h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px; 
+}
+table {
+  font-family: arial, sans-serif;    
+  border-collapse: collapse;        
+  width: 100%;
+}
+ td, th {
+   border: 1px solid #444444;
+   text-align: center;
+   padding: 8px;
+ }
+ a{   
+  color:rgb(0, 0, 0);         
+  text-decoration: none;      
+ }
+ ul{
+  overflow: hidden;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+ }
+li{
+  display: inline-block;
+ }
+li a{
+  display: block;
+  padding: 8px 25px;
+}
+li a:hover{
+  color: #fff;            
+  background: #393939;     
+}
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.nav .current{    
+  color: #fff; 
+   background-color: #393939;
+}
+.nav-right{
+  float:right;
+}
+.button {
+  background-color: rgb(91, 91, 91);
+  color: rgb(255, 255, 255);
+  padding: 500px 15px;
+}
+
+.b1 {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
