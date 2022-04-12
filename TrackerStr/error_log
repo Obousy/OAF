@@ -1,0 +1,324 @@
+[01-Mar-2022 19:09:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'kunet' (0) in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php:11
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php(11): PDO->__construct('mysql:host=kune...', 'your user name', 'your database p...')
+#1 /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php(4): require_once('/home/cnek55ksv...')
+#2 /home/cnek55ksvo51/public_html/testapp-simple/addUser.php(2): require_once('/home/cnek55ksv...')
+#3 {main}
+  thrown in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php on line 11
+[01-Mar-2022 19:13:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'kunet' (0) in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php:11
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php(11): PDO->__construct('mysql:host=kune...', 'Boom', 'drogba11')
+#1 /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php(4): require_once('/home/cnek55ksv...')
+#2 /home/cnek55ksvo51/public_html/testapp-simple/addUser.php(2): require_once('/home/cnek55ksv...')
+#3 {main}
+  thrown in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php on line 11
+[01-Mar-2022 19:15:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'kunet' (0) in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php:11
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php(11): PDO->__construct('mysql:host=kune...', 'Boom', 'drogba11')
+#1 /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php(4): require_once('/home/cnek55ksv...')
+#2 /home/cnek55ksvo51/public_html/testapp-simple/addUser.php(2): require_once('/home/cnek55ksv...')
+#3 {main}
+  thrown in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php on line 11
+[01-Mar-2022 19:15:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'kunet' (0) in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php:11
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php(11): PDO->__construct('mysql:host=kune...', 'Boom', 'drogba11')
+#1 /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php(4): require_once('/home/cnek55ksv...')
+#2 /home/cnek55ksvo51/public_html/testapp-simple/addUser.php(2): require_once('/home/cnek55ksv...')
+#3 {main}
+  thrown in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php on line 11
+[01-Mar-2022 19:15:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'kunet' (0) in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php:11
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php(11): PDO->__construct('mysql:host=kune...', 'Boom', 'drogba11')
+#1 /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php(4): require_once('/home/cnek55ksv...')
+#2 /home/cnek55ksvo51/public_html/testapp-simple/addUser.php(2): require_once('/home/cnek55ksv...')
+#3 {main}
+  thrown in /home/cnek55ksvo51/public_html/testapp-simple/dataAccess-db.php on line 11
+[03-Apr-2022 03:34:39 UTC] PHP Warning:  require_once(test.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'test.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:40 UTC] PHP Warning:  require_once(test.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'test.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:40 UTC] PHP Warning:  require_once(test.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'test.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:41 UTC] PHP Warning:  require_once(test.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'test.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:41 UTC] PHP Warning:  require_once(test.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:41 UTC] PHP Fatal error:  require_once(): Failed opening required 'test.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:55 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:57 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:57 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:58 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:58 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:58 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:59 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:59 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:34:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:00 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:00 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:11 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:12 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Warning:  require_once(addUser_controlle.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 03:35:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'addUser_controlle.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser.php on line 2
+[03-Apr-2022 10:45:59 UTC] PHP Warning:  require_once(cardioprogress.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 10:45:59 UTC] PHP Fatal error:  require_once(): Failed opening required 'cardioprogress.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 10:46:00 UTC] PHP Warning:  require_once(cardioprogress.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 10:46:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'cardioprogress.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 10:46:01 UTC] PHP Warning:  require_once(cardioprogress.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 10:46:01 UTC] PHP Fatal error:  require_once(): Failed opening required 'cardioprogress.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/testapp-simple/addUser_controller.php on line 3
+[03-Apr-2022 13:02:34 UTC] PHP Warning:  require_once(/home/cnek55ksvo51/public_html/Project/dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:34 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/cnek55ksvo51/public_html/Project/dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:39 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:40 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:40 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:52 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:52 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:53 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:02:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 4
+[03-Apr-2022 13:35:39 UTC] PHP Notice:  Undefined index: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 13:35:39 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:35:39 UTC] PHP Notice:  Undefined variable: address in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 22
+[03-Apr-2022 13:35:51 UTC] PHP Notice:  Undefined index: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 13:35:51 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:35:51 UTC] PHP Notice:  Undefined variable: address in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 22
+[03-Apr-2022 13:38:16 UTC] PHP Notice:  Undefined index: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 13:38:16 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:38:16 UTC] PHP Notice:  Undefined variable: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 21
+[03-Apr-2022 13:38:16 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:39:38 UTC] PHP Notice:  Undefined index: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 13:39:38 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:39:38 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:40:43 UTC] PHP Notice:  Undefined index: firstname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 13:40:43 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:40:43 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:40:47 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:40:47 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:40:59 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:40:59 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:41:19 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:41:19 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:41:22 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:41:22 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:41:24 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:41:57 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:42:00 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:42:05 UTC] PHP Notice:  Undefined index: taichimins in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 15
+[03-Apr-2022 13:42:05 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:43:03 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:13 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 17
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:44:50 UTC] PHP Notice:  Undefined variable: name in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:45:01 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:46:43 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:48:04 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:48:06 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 13:48:42 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 14:03:07 UTC] PHP Notice:  Undefined property: Customer::$givenname in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 14:03:07 UTC] PHP Notice:  Undefined property: Customer::$address in /home/cnek55ksvo51/public_html/Project/customer.php on line 13
+[03-Apr-2022 14:05:26 UTC] PHP Notice:  Undefined index: givenname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 14:05:26 UTC] PHP Notice:  Undefined index: address in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 12
+[03-Apr-2022 14:05:30 UTC] PHP Notice:  Undefined index: givenname in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 11
+[03-Apr-2022 14:05:30 UTC] PHP Notice:  Undefined index: address in /home/cnek55ksvo51/public_html/Project/addUser_controller.php on line 12
+[03-Apr-2022 14:44:31 UTC] PHP Notice:  Undefined variable: jogdistance in /home/cnek55ksvo51/public_html/OAF/Project/addUser_controller.php on line 23
+[03-Apr-2022 14:44:31 UTC] PHP Notice:  Undefined variable: walkmins in /home/cnek55ksvo51/public_html/OAF/Project/addUser_controller.php on line 24
+[03-Apr-2022 14:44:31 UTC] PHP Notice:  Undefined variable: taichimins in /home/cnek55ksvo51/public_html/OAF/Project/addUser_controller.php on line 25
+[03-Apr-2022 14:44:31 UTC] PHP Notice:  Undefined variable: dailypushups in /home/cnek55ksvo51/public_html/OAF/Project/addUser_controller.php on line 26
+[03-Apr-2022 14:44:31 UTC] PHP Notice:  Undefined variable: dailysitups in /home/cnek55ksvo51/public_html/OAF/Project/addUser_controller.php on line 27
+[03-Apr-2022 14:48:58 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/cnek55ksvo51/public_html/OAF/Project/dataAccess-db.php on line 49
+[05-Apr-2022 12:50:03 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:03 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:38 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:39 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:43 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:50:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:13 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:15 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:15 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 12:59:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 13:07:19 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 13:07:19 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 13:07:20 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 13:07:20 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 13:11:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php:19
+Stack trace:
+#0 /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_view.php(2): require_once()
+#1 {main}
+  thrown in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 19
+[05-Apr-2022 13:12:15 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:12:15 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:12:15 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:12:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:12:24 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:12:24 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:12:24 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:12:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:13:43 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:13:43 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:13:43 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:13:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:13:44 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:13:44 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:13:44 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:13:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:16:08 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:16:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:16:08 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:16:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:16:09 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:16:09 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:16:09 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:16:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:19:06 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:19:06 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:19:06 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:19:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:19:19 UTC] PHP Notice:  Undefined variable: lastsearch in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:19:19 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:19:19 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:19:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:23:08 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:23:08 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:23:08 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:23:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:23:12 UTC] PHP Fatal error:  Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/dataAccess-db.php on line 33
+[05-Apr-2022 13:24:16 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:24:16 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:24:16 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:24:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:24:17 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:24:17 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:24:17 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:24:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:25:41 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:25:41 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:25:41 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:25:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:25:53 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:25:53 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:25:53 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:25:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:26:31 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:26:31 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:26:31 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:26:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:27:50 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:27:50 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:27:50 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:27:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:29:10 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:29:10 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:29:10 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:29:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:29:11 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:29:11 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:29:11 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:29:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:30:52 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:30:52 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:30:52 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:30:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:32:28 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:32:28 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:32:28 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:32:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:32:38 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:32:38 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 13:32:38 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 13:32:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 17:45:47 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 17:45:47 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 17:45:47 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 17:45:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 18:03:05 UTC] PHP Warning:  require_once(dataAccess-db.php): failed to open stream: No such file or directory in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 18:03:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'dataAccess-db.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/cnek55ksvo51/public_html/OAF/TrackerStr/progress_controller.php on line 4
+[05-Apr-2022 18:03:46 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 18:03:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[05-Apr-2022 18:03:46 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[05-Apr-2022 18:03:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:23:45 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:23:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:23:45 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:23:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:23:49 UTC] PHP Fatal error:  Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/dataAccess-db.php on line 19
+[07-Apr-2022 15:24:20 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:24:20 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:24:20 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:24:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:24:33 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:24:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[07-Apr-2022 15:24:33 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:24:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[07-Apr-2022 15:24:39 UTC] PHP Fatal error:  Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/dataAccess-db.php on line 33
+[07-Apr-2022 15:24:45 UTC] PHP Fatal error:  Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/dataAccess-db.php on line 33
+[08-Apr-2022 13:20:49 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 13:20:49 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 13:20:49 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[08-Apr-2022 13:20:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[08-Apr-2022 13:20:53 UTC] PHP Fatal error:  Class 'Customer' not found in /home/cnek55ksvo51/public_html/OAF/TrackerStr/dataAccess-db.php on line 33
+[08-Apr-2022 13:23:31 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 13:23:31 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 13:23:31 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[08-Apr-2022 13:23:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[08-Apr-2022 14:04:34 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 14:04:34 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[08-Apr-2022 14:04:34 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[08-Apr-2022 14:04:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[11-Apr-2022 12:33:56 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[11-Apr-2022 12:33:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[11-Apr-2022 12:33:56 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[11-Apr-2022 12:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[12-Apr-2022 05:12:46 UTC] PHP Notice:  Undefined variable: lastsear in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[12-Apr-2022 05:12:46 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 13
+[12-Apr-2022 05:12:46 UTC] PHP Notice:  Undefined variable: progresslist in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
+[12-Apr-2022 05:12:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cnek55ksvo51/public_html/OAF/TrackerStr/viewprogress_view.php on line 34
